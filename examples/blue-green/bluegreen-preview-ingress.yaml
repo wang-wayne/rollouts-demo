@@ -8,7 +8,7 @@ metadata:
     ingress.kubernetes.io/app-root: /
 spec:
   rules:
-  - host: blue-green-preview.dev.argoproj.io
+  - host: blue-green-preview
     http:
       paths:
       - path: /
